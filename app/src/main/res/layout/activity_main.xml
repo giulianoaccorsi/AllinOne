@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/imageView_button"
+        android:onClick="acessarRecuperaFotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imageview_button" />
+
+    <Button
+        android:id="@+id/mapView_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mapView_button" />
+
+    <Button
+        android:id="@+id/locationapi_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locationAPI_button" />
+
+    <Button
+        android:id="@+id/rotas_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rotas" />
+
+    <Button
+        android:id="@+id/interesses_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pontos_de_interesse_button" />
+
+    <Button
+        android:id="@+id/webview_button"
+        android:onClick="acessarWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usando_webview" />
+
+    <Button
+        android:id="@+id/audioManager_button"
+        android:layout_width="match_parent"
+        android:onClick="acessarMediaPlayer"
+        android:layout_height="wrap_content"
+        android:text="@string/sons_audiomanager" />
+
+    <Button
+        android:id="@+id/mediaPlayer_button"
+        android:layout_width="match_parent"
+        android:onClick="acessarVideoPlayer"
+        android:layout_height="wrap_content"
+        android:text="@string/videos_mediaplayer" />
+
+    <Button
+        android:id="@+id/animation_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anima_es_com_viewanimation" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">All in One</string>
+    <string name="imageview_button">Recuperando fotos com ImageView</string>
+    <string name="mapView_button">Utilizando Mapas: MapView</string>
+    <string name="locationAPI_button">Localização do Usuário com Location API</string>
+    <string name="rotas">Rotas</string>
+    <string name="pontos_de_interesse_button">Pontos de Interesse</string>
+    <string name="usando_webview">Usando WebView</string>
+    <string name="sons_audiomanager">Sons: AudioManager</string>
+    <string name="videos_mediaplayer">Videos: MediaPlayer</string>
+    <string name="anima_es_com_viewanimation">Animações com ViewAnimation</string>
+    <string name="dog">Dog</string>
+    <string name="title_media_player">Toque na Imagem</string>
+</resources>

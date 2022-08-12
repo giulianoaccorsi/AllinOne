@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VideoPlayerMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/menuUpload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/dog"
+            app:srcCompat="@android:drawable/ic_menu_upload_you_tube"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/revertButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/dog"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/dog"
+            app:srcCompat="@android:drawable/ic_media_play"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/dog"
+            app:srcCompat="@android:drawable/ic_media_pause"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>
