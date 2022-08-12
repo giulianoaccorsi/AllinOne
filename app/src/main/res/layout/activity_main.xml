@@ -62,6 +62,7 @@
 
     <Button
         android:id="@+id/animation_button"
+        android:onClick="acessarAnimation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/anima_es_com_viewanimation" />

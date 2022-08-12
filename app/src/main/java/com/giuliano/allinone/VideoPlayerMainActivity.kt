@@ -22,7 +22,7 @@ class VideoPlayerMainActivity : AppCompatActivity() {
         val viewVideo = binding.videoView
         mediaController.setAnchorView(viewVideo)
 
-        val uriPath = "https://ia800604.us.archive.org/25/items/EatinOnTheCuffOrTheMothWhoCameToDinner1942/Hollywood%20Capers%20%281935%29.mp4"
+        val uriPath = "https://ia800209.us.archive.org/24/items/WildlifeSampleVideo/Wildlife.mp4"
         uri = Uri.parse(uriPath)
         viewVideo.setOnCompletionListener {
             if(isContinuously) {

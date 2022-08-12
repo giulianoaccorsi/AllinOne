@@ -35,4 +35,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, VideoPlayerMainActivity::class.java)
         startActivity(intent)
     }
+
+    fun acessarAnimation(view: View) {
+        val intent = Intent(this, AnimationActivity::class.java)
+        startActivity(intent)
+    }
 }
