@@ -29,11 +29,13 @@ class AnimationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        val animationListView = binding.listViewAnimation
+        val textView = binding.textViewAnimation
 
-        binding.listViewAnimation.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, animations)
-        binding.listViewAnimation.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
+        animationListView.adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, animations)
+        animationListView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
             val animation = AnimationUtils.loadAnimation(this, animationID[position])
-            binding.textViewAnimation.startAnimation(animation)
+            textView.startAnimation(animation)
         }
     }
 }

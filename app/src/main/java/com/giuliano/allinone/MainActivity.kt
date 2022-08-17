@@ -40,4 +40,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AnimationActivity::class.java)
         startActivity(intent)
     }
+
+    fun acessarMapView(view: View) {
+        val intent = Intent(this, MapsActivity::class.java)
+        startActivity(intent)
+    }
 }
