@@ -10,6 +10,7 @@ import androidx.core.graphics.drawable.DrawableCompat
 import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 
+// Criamos um objeto para transformar uma imagem vetor em um BitMap para utilizar no mapa.
 object BitMapHelper {
     fun vectorToBitmap(
         context: Context,
